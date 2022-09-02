@@ -1,7 +1,21 @@
 .background {
-    background-color: lemonchiffon;
+    background-color: #7FBCD2;
   }
   
   .title {
-    color: darkblue;
+    color: #FFEEAF;
   }
+
+  .head-blue {
+    section-color: #A5F1E9;
+  }
+   
+  .section-light {
+    section-color: #FFEEAF;
+  }
+
+  .container {
+    background-color: #FFEEAF;
+  }
+
+  
