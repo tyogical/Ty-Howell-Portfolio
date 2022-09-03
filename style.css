@@ -2,9 +2,38 @@
     background-color: #7FBCD2;
   }
   
-  .title {
+body {
+    font-family: Arial, Helvetica, sans-serif;
     color: #FFEEAF;
-  }
+}
 
-  
+header {
+        width: 100%
+}
+
+    h2 {
+        text-align: left;
+        display: inline;
+    }
+
+    ul {
+        text-align: right;
+    }
+
+    li {
+        display: inline;
+        list-style-type: none;
+        font-size: 40px;
+    }
+
+    
+    .headshot {
+        width:300px;
+        border-radius: 8px;
+    }
+
+    .footer {
+        padding: 30px;
+        text-align: center;
+    }
 
