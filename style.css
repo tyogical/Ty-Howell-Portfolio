@@ -1,8 +1,6 @@
-header img {
-    height: 100px;
-    margin-left: 40px;
-    border-radius: 50%;
-}
+header * {
+    display: inline;
+    }
 
 header {
     background-color: white;
@@ -16,23 +14,24 @@ header {
     box-shadow: 0 0 100px 0 black;
     }
 
-    header * {
-    display: inline;
+    header img {
+        height: 100px;
+        margin-left: 40px;
+        border-radius: 50%;
     }
 
     header li {
-    margin: 20px;
-    }
-
-    header li a {
-    color: black;
-    text-decoration: none;
-    }
-
-    header nav {
-    margin-left: auto;
-    }
-
+        margin: 20px;
+        }
+    
+        header li a {
+        color: black;
+        text-decoration: none;
+        }
+    
+        header nav {
+        margin-left: auto;
+        }
 body {
         height: 125vh;
         background-size: cover;
@@ -43,4 +42,49 @@ body {
           
     main {
         color: white;
+        display: block;
+    }
+
+    .about {
+        margin-bottom: 20px;
+        padding: 50px;
+        height: 200px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: #1ab1b9;
+        color: #ffffff;
+    }
+
+    .float-right {
+        height: 200px;
+        width: 200px;
+        float: right;
+        margin-left: 25px;
+    }
+
+    .work-experience {
+        margin-bottom: 20px;
+        padding: 50px;
+        height: 200px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: #1ab1b9;
+        color: #ffffff;
+
+    }
+
+    .Education {
+        margin-bottom: 20px;
+        padding: 50px;
+        height: 200px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: #1ab1b9;
+        color: #ffffff;    
+    }
+
+    .contact {
+        margin-bottom: 20px;
+        padding: 50px;
+        height: 200px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: #1ab1b9;
+        color: #ffffff;    
     }
