@@ -10,33 +10,30 @@
     <body>
 
       <header>
-           <img src="./assets/images/IMG_1291.JPG" class="header img" alt="Ty Howell">
-           <button class="nav-toggle" aria-label="toggle navigation">
-              <span class="hamburger"></span>
-           </button>
             <nav class="nav">
                 <ul class="nav__list">
                     <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
                     <li class="nav__item"><a href="#coding" class="nav__link">Coding</a></li>
                     <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
                     <li class="nav__item"><a href="#bartending" class="nav__link">Bartending</a></li>
+                    <img id="nav-img" img src="./assets/images/IMG_1291.JPG" alt="Ty Howell">
                 </ul>
             </nav>
       </header>
 
       <main>
-        <section class="intro" id="home">
-            <h1 class="section__title section__title--intro">
-              Nice to meet you, I'm <strong>Ty Howell</strong>
-            </h1>
-            <p class="section__subtitle section__subtitle--intro">junior developer</p>
-            <img src="./assets/images/IMG_0429.jpg" alt="Ty Howell making a drink">
+        <section id="home" class="hero">
+          <img src="./assets/images/IMG_0429.jpg" class="hero-img" alt="Ty Howell making a drink">
+          <home-greeting class="hero-text">
+             <h1>Nice to meet you, I'm <strong>Ty Howell</strong></h1>
+                <p>junior developer</p>
+          </home-greeting>
         </section>
           
-        <section class="Coding-Experience" id="coding">
-            <h2 class="section__title section__title--experience">My Work</h2>
+        <section id="coding">
+            <h2 class="heading">My Work Coding</h2>
 
-            <column class="services">
+            <column class="container">
 
               <item class="service">
                 <h3>HTML</h3>
@@ -64,74 +61,61 @@
           </section>
 
         <section class="about-me" id="about">
-          <h2 class="section__title section__title--about">About Me</h2>
-          <p class="section__subtitle section__subtitle--about">Bartender and Junior Developer from Indianapolis</p>
+          <h1 class="heading">About Me</h1>
+          <container class="container">
+              <img src="./assets/images/IMG_3005.JPG" class="bio-img" alt="Ty Howell stroking chin">
+              <content class="content">
+                <h2 class="tyhowell">Ty Howell</h2>
 
-          <section-body class="about-me__body">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A eum beatae, aperiam necessitatibus quis suscipit totam quod est voluptates.
-            Ipsa quae ullam adipisci. Ratione, iure expedita animi magni placeat autem.
-            </p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A eum beatae, aperiam necessitatibus quis suscipit totam quod est voluptates.
-              Ipsa quae ullam adipisci. Ratione, iure expedita animi magni placeat autem.
-            </p>
-          </section-body>
-
-          <img src="./assets/images/IMG_3005.JPG" alt="Ty Howell stroking chin">
+                <p class="biography">I am a Bartender, Manager, and beginning Coding Developer based out of Indianapolis. Some of my hobies include kayaking, rock-climbing, and attending concerts. I am an avid appreciator of the arts and love learning about new cultural and culinary treasures.</p>
+                <br>
+                <p class="biography">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam atque nesciunt officiis, possimus earum, ex ipsa est voluptatibus accusamus quo repellendus dolores dolor deleniti non illum veniam optio. Doloribus, est.</p>
+                <br>
+                <p class="biography">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam atque nesciunt officiis, possimus earum, ex ipsa est voluptatibus accusamus quo repellendus dolores dolor deleniti non illum veniam optio. Doloribus, est.</p>
+                <br>
+                <p class="biography">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam atque nesciunt officiis, possimus earum, ex ipsa est voluptatibus accusamus quo repellendus dolores dolor deleniti non illum veniam optio. Doloribus, est.</p>
+                <br>
+                <p class="biography">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam atque nesciunt officiis, possimus earum, ex ipsa est voluptatibus accusamus quo repellendus dolores dolor deleniti non illum veniam optio. Doloribus, est.</p>
+              </content>
+          </container>
         </section>
 
-        <section class="bar-experience" id="bartending">
-          <h2 class="section__title">My Work Behind the Bar</h2>
-          <p class="section__subtitle"></p>
-
-          <bar-portfolio class="portfolio">
-            <a href="#" class="portfolio__item">
-              <img src="./assets/images/6C872261-8FD7-4A8F-8577-A28F0420C3C5.JPG" class="portfolio_img" alt="Ty Howell making a drink">
-            </a>
-
-            <a href="#" class="portfolio__item">
-              <img src="./assets/images/D74BEE71-8A78-4E42-B2CA-22DC439E8A4B.jpg" class="portfolio_img" alt="Ty Howell behind a bar">
-            </a>
-
-            <a href="#" class="portfolio__item">
-              <img src="./assets/images/IMG_0423.jpg" class="portfolio_img" alt="Kan Kan building">
-            </a>
-
-            <a href="#" class="portfolio__item">
-              <img src="./assets/images/IMG_0424.jpg" class="portfolio_img" alt="Kan Kan interior">
-            </a>
-
-            <a href="#" class="portfolio__item">
-              <img src="./assets/images/IMG_0473.jpg" class="portfolio_img" alt="Martini cocktail">
-            </a>
-
-            <a href="#" class="portfolio__item">
-              <img src="./assets/images/IMG_4520.jpg" class="portfolio_img" alt="Ty Howell with a friend">
-            </a>
-
-            <a href="#" class="portfolio__item">
-              <img src="./assets/images/90869D5C-3DE7-473C-A05D-1545C44B3F87.JPG" class="portfolio_img" alt="Ty Howell pouring gin">
-            </a>
-
-            <a href="#" class="portfolio__item">
-              <img src="./assets/images/IMG_0497.jpg" class="portfolio_img" alt="Ty Howell with group of friends">
-            </a>
-
-          </bar-portfolio>
-
+        <section id="bartending">
+          <h2 class="heading">My Work Behind the Bar</h2>
+          <portfolio class="gallery">
+            <row class="row">
+              <column class="column">
+                <img src="./assets/images/6C872261-8FD7-4A8F-8577-A28F0420C3C5.JPG" class="portfolio_img" alt="Ty Howell making a drink">
+                <img src="./assets/images/D74BEE71-8A78-4E42-B2CA-22DC439E8A4B.jpg" class="portfolio_img" alt="Ty Howell behind a bar">
+              </column>
+              <column class="column">
+                <img src="./assets/images/IMG_0423.jpg" class="portfolio_img" alt="Kan Kan building">
+                <img src="./assets/images/IMG_0424.jpg" class="portfolio_img" alt="Kan Kan interior">
+              </column>
+              <column class="column">
+                <img src="./assets/images/IMG_0473.jpg" class="portfolio_img" alt="Martini cocktail">
+                <img src="./assets/images/IMG_4520.jpg" class="portfolio_img" alt="Ty Howell with a friend">
+              </column>
+              <column class="column">
+                <img src="./assets/images/90869D5C-3DE7-473C-A05D-1545C44B3F87.JPG" class="portfolio_img" alt="Ty Howell pouring gin">
+                <img src="./assets/images/IMG_0497.jpg" class="portfolio_img" alt="Ty Howell with group of friends">
+              </column>
+            </row>
+          </portfolio>
         </section>
     
       </main>
 
     </body>
 
-    <footer class="footer-content">
+    <footer>
       <h3>Follow Me</h3>
 
-        <ul class="socials">
-            <li class="social-list__item"><a class="social-list__link" href="https://www.facebook.com/people/Tyrone-Howell/100083182573298/"><img src="./assets/images/facebook.png" alt="Facebook" /></a>
-            <li class="social-list__item"><a class="social-list__link" href="https://www.instagram.com/jefflonzuckergates/"><img src="./assets/images/instagram.png" alt="Instagram" /></a></li>
-            <li class="social-list__item"><a class="social-list__link" href="https://www.linkedin.com/in/ty-howell-37b94944/"><img src="./assets/images/linkedin.png" alt="LinkedIn" /></a></li>
-            <li class="social-list__item"><a class="social-list__link" href="mailto:tyronehowell1987@icloud.com" class="footer__link">Contact Me</a></li>
+        <ul>
+            <li><a href="https://www.facebook.com/people/Tyrone-Howell/100083182573298/"><img src="./assets/images/facebook.png" alt="Facebook" /></a>
+            <li><a href="https://www.instagram.com/jefflonzuckergates/"><img src="./assets/images/instagram.png" alt="Instagram" /></a></li>
+            <li><a href="https://www.linkedin.com/in/ty-howell-37b94944/"><img src="./assets/images/linkedin.png" alt="LinkedIn" /></a></li>
+            <li style="float:right"><a href="mailto:tyronehowell1987@icloud.com" class="footer__link">Contact Me</a></li>
         </ul>
 
     </footer>
