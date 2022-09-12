@@ -7,65 +7,132 @@
         <link rel="stylesheet" href="./style.css">
     </head>
 
-    <body background="./assets/images/N7pWfUa.jpeg">
+    <body>
 
-        <header>
+      <header>
            <img src="./assets/images/IMG_1291.JPG" class="header img" alt="Ty Howell">
            <button class="nav-toggle" aria-label="toggle navigation">
               <span class="hamburger"></span>
            </button>
             <nav class="nav">
                 <ul class="nav__list">
-                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                    <li class="nav__item"><a href="#experience" class="nav__link">Work Experience</a></li>
-                    <li class="nav__item"><a href="#" class="nav__link">Education</a></li>
-                    <li class="nav__item"><a href="#" class="nav__link">Coding</a></li>
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#coding" class="nav__link">Coding</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="#bartending" class="nav__link">Bartending</a></li>
                 </ul>
             </nav>
-        </header>
+      </header>
 
-        <main>
-          <section class="intro" id="about">
+      <main>
+        <section class="intro" id="home">
             <h1 class="section__title section__title--intro">
               Nice to meet you, I'm <strong>Ty Howell</strong>
             </h1>
             <p class="section__subtitle section__subtitle--intro">junior developer</p>
             <img src="./assets/images/IMG_0429.jpg" alt="Ty Howell making a drink">
-          </section>
+        </section>
           
-          <section class="Work-Experience" id="experience">
+        <section class="Coding-Experience" id="coding">
             <h2 class="section__title section__title--experience">My Work</h2>
+
             <column class="services">
+
               <item class="service">
-                <h3></h3>
-                <p></p>
+                <h3>HTML</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A eum beatae, aperiam necessitatibus quis suscipit totam quod est voluptates.
+                  Ipsa quae ullam adipisci. Ratione, iure expedita animi magni placeat autem.
+                </p>
               </item>
+
               <item class="service">
-                <h3></h3>
-                <p></p>
+                <h3>CSS</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A eum beatae, aperiam necessitatibus quis suscipit totam quod est voluptates.
+                  Ipsa quae ullam adipisci. Ratione, iure expedita animi magni placeat autem.
+                </p>
               </item>
+
               <item class="service">
-                <h3></h3>
-                <p></p>
+                <h3>Javascript</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A eum beatae, aperiam necessitatibus quis suscipit totam quod est voluptates.
+                  Ipsa quae ullam adipisci. Ratione, iure expedita animi magni placeat autem.
+                </p>
               </item>
+
             </column>
 
-            <a href="Work" class="btn">My Work</a>
-
           </section>
 
-        </main>
+        <section class="about-me" id="about">
+          <h2 class="section__title section__title--about">About Me</h2>
+          <p class="section__subtitle section__subtitle--about">Bartender and Junior Developer from Indianapolis</p>
+
+          <section-body class="about-me__body">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A eum beatae, aperiam necessitatibus quis suscipit totam quod est voluptates.
+            Ipsa quae ullam adipisci. Ratione, iure expedita animi magni placeat autem.
+            </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A eum beatae, aperiam necessitatibus quis suscipit totam quod est voluptates.
+              Ipsa quae ullam adipisci. Ratione, iure expedita animi magni placeat autem.
+            </p>
+          </section-body>
+
+          <img src="./assets/images/IMG_3005.JPG" alt="Ty Howell stroking chin">
+        </section>
+
+        <section class="bar-experience" id="bartending">
+          <h2 class="section__title">My Work Behind the Bar</h2>
+          <p class="section__subtitle"></p>
+
+          <bar-portfolio class="portfolio">
+            <a href="#" class="portfolio__item">
+              <img src="./assets/images/6C872261-8FD7-4A8F-8577-A28F0420C3C5.JPG" class="portfolio_img" alt="Ty Howell making a drink">
+            </a>
+
+            <a href="#" class="portfolio__item">
+              <img src="./assets/images/D74BEE71-8A78-4E42-B2CA-22DC439E8A4B.jpg" class="portfolio_img" alt="Ty Howell behind a bar">
+            </a>
+
+            <a href="#" class="portfolio__item">
+              <img src="./assets/images/IMG_0423.jpg" class="portfolio_img" alt="Kan Kan building">
+            </a>
+
+            <a href="#" class="portfolio__item">
+              <img src="./assets/images/IMG_0424.jpg" class="portfolio_img" alt="Kan Kan interior">
+            </a>
+
+            <a href="#" class="portfolio__item">
+              <img src="./assets/images/IMG_0473.jpg" class="portfolio_img" alt="Martini cocktail">
+            </a>
+
+            <a href="#" class="portfolio__item">
+              <img src="./assets/images/IMG_4520.jpg" class="portfolio_img" alt="Ty Howell with a friend">
+            </a>
+
+            <a href="#" class="portfolio__item">
+              <img src="./assets/images/90869D5C-3DE7-473C-A05D-1545C44B3F87.JPG" class="portfolio_img" alt="Ty Howell pouring gin">
+            </a>
+
+            <a href="#" class="portfolio__item">
+              <img src="./assets/images/IMG_0497.jpg" class="portfolio_img" alt="Ty Howell with group of friends">
+            </a>
+
+          </bar-portfolio>
+
+        </section>
+    
+      </main>
 
     </body>
 
     <footer class="footer-content">
-            <h3>Follow Me</h3>
+      <h3>Follow Me</h3>
 
-            <ul class="socials">
-                <li><a href="https://www.facebook.com/people/Tyrone-Howell/100083182573298/"><img src="./assets/images/facebook.png" alt="Facebook" /></a>
-                <li><a href="https://www.instagram.com/jefflonzuckergates/"><img src="./assets/images/instagram.png" alt="Instagram" /></a></li>
-                <li><a href="https://www.linkedin.com/in/ty-howell-37b94944/"><img src="./assets/images/linkedin.png" alt="LinkedIn" /></a></li>
-            </ul>
+        <ul class="socials">
+            <li class="social-list__item"><a class="social-list__link" href="https://www.facebook.com/people/Tyrone-Howell/100083182573298/"><img src="./assets/images/facebook.png" alt="Facebook" /></a>
+            <li class="social-list__item"><a class="social-list__link" href="https://www.instagram.com/jefflonzuckergates/"><img src="./assets/images/instagram.png" alt="Instagram" /></a></li>
+            <li class="social-list__item"><a class="social-list__link" href="https://www.linkedin.com/in/ty-howell-37b94944/"><img src="./assets/images/linkedin.png" alt="LinkedIn" /></a></li>
+            <li class="social-list__item"><a class="social-list__link" href="mailto:tyronehowell1987@icloud.com" class="footer__link">Contact Me</a></li>
+        </ul>
 
     </footer>
 
